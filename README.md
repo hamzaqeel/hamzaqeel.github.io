@@ -39,7 +39,7 @@ This is the intentional functional change needed to eliminate the original exter
 
 ## Preserved behavior
 
-- All 12 selected-work cards, including the four Drive APK links and upgraded icons.
+- All 13 selected-work cards, including Indian Cricket Game 26, the four Drive APK links, and upgraded icons.
 - Forest Nights Survival 3D includes its gameplay anchor, live Google Play listing, and correctly labeled App Store developer-page link.
 - Four major-update cards with their existing Google Play links and content.
 - Original App Store, Google Play, LinkedIn, phone, email, gameplay anchor, and CV links.
