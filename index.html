@@ -17,6 +17,18 @@
 <link rel="shortcut icon" href="assets/images/favicon.svg">
 <link rel="icon" href="assets/images/favicon.svg">
 <link rel="stylesheet" href="assets/css/style.css">
+<style>
+/* Forest Nights store CTAs */
+.forest-store-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1rem;align-items:center}
+.forest-store-button{display:inline-flex;align-items:center;justify-content:center;gap:.45rem;min-height:42px;padding:.72rem 1rem;border:2px solid currentColor;text-decoration:none;font-size:.76rem;font-weight:900;line-height:1;text-transform:uppercase;letter-spacing:.07em;transition:transform .18s ease,box-shadow .18s ease}
+.forest-store-button:hover{transform:translate(-2px,-2px)}
+.forest-store-button:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+.forest-store-button--gameplay{background:#111;color:#fff;box-shadow:4px 4px 0 #8e6cff}
+.forest-store-button--play{background:#d7ff37;color:#0a0a0a;box-shadow:4px 4px 0 #00e5ff}
+.forest-store-button--apple{background:#fff;color:#0a0a0a;box-shadow:4px 4px 0 #ff4fb8}
+@media (max-width:560px){.forest-store-actions{display:grid;grid-template-columns:1fr}.forest-store-button{width:100%}}
+</style>
+
 <script src="assets/js/main.js" defer></script><noscript><style>[data-reveal]{opacity:1;translate:0;transform:none;}</style></noscript>
 </head>
 <body><div class="site-root" style="--scroll-progress:0;--cursor-x:70%;--cursor-y:16%;--hero-copy-y:0px;--hero-stage-y:0px;--hero-grid-y:0px">
@@ -102,7 +114,11 @@
 <div class="project-body">
 <span class="project-genre">Survival · Adventure</span><h3>Forest Nights Survival 3D</h3>
 <p>Gather, build, explore, and prepare for the night in a colorful 3D survival experience shaped around readable objectives and touch-first controls.</p>
-<div class="project-links"><a class="project-link" href="#forest">Watch gameplay<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewbox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></a><a class="project-link" href="https://play.google.com/store/apps/details?id=com.aag.forest.nights.survival" target="_blank" rel="noreferrer">Google Play<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a><a class="project-link" href="https://apps.apple.com/us/developer/muhammad-latif/id1835886831" target="_blank" rel="noreferrer">App Store<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div>
+<div class="forest-store-actions" aria-label="Forest Nights Survival 3D links">
+<a class="forest-store-button forest-store-button--gameplay" href="#forest">Watch Gameplay<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewbox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></a>
+<a class="forest-store-button forest-store-button--play" href="https://play.google.com/store/apps/details?id=com.aag.forest.nights.survival" target="_blank" rel="noopener noreferrer" aria-label="Forest Nights Survival 3D on Google Play">Play Store<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+<a class="forest-store-button forest-store-button--apple" href="https://apps.apple.com/us/developer/muhammad-latif/id1835886831" target="_blank" rel="noopener noreferrer" aria-label="Open Muhammad Latif on the App Store">App Store<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</div>
 </div>
 </article>
 <article class="project-card accent-pink" data-reveal="true" style="--reveal-delay:85ms;--tilt-x:0deg;--tilt-y:0deg;--shine-x:50%;--shine-y:50%"><div class="project-media">
